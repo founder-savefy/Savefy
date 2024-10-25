@@ -1,9 +1,7 @@
-// Smooth Scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
+// scripts.js
+
+// Add your JavaScript here
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Document loaded');
+  // You can add more interactivity as needed
 });
